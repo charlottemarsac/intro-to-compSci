@@ -25,10 +25,12 @@ public class StringsL3 {
 		String p ="Hello Again";
 		System.out.println(o.substring(0,5) + "\n" + p.substring(0,11));
 		
-		String q ="A backslash looks like this \, ...right?";
-		System.out.printlm(q.substring())
-	
+		System.out.println("A backslash looks like this \\, ...right?");
 		
+		String pq ="Eddie Haskel";
+		int hm =pq.length();
+		String ed =pq.substring(hm-4);
+		System.out.println(ed);
 		
 	}
 
